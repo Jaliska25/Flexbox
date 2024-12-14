@@ -10,10 +10,18 @@
   <body>
     <header>
       <div class="pre-header">
-      <span class="mensaje"><a href="#">ENVIOS A TIENDA SIEMPRE GRATIS, A DOMICILIO A PARTIR DE 30€</a>
+        <span class="mensaje"
+          ><a href="#"
+            >ENVIOS A TIENDA SIEMPRE GRATIS, A DOMICILIO A PARTIR DE 30€</a
+          ></span
+        >
       </div>
       <div class="navegador">
-        <img src="./images/hamburgesa.png" alt="menu" class="menu_hamburguesa">
+        <img
+          src="./images/hamburgesa.png"
+          alt="menu"
+          class="menu_hamburguesa"
+        />
         <img src="images/Logo.png" alt="logo" class="logo" />
         <nav>
           <ul class="menu">
@@ -30,8 +38,8 @@
               <a href="#">
                 <img src="images/Lupa.png" alt="lupa" />
               </a>
-            </li class="Busqueda">
-            <input type="search" value="Buscar" />
+            </li>
+            <li><input type="search" value="Buscar" /></li>
             <li>
               <a href="#">
                 <img src="images/Persona.png" alt="Mi cuenta" />
@@ -51,7 +59,7 @@
         </nav>
       </div>
     </header>
-         <main>
+    <main>
       <section class="hero1">
         <h1>BLACK FRIDAY</h1>
         <h2>HASTA -50% Y -30% EN TODO LO DEMÁS</h2>
@@ -66,66 +74,79 @@
       </section>
       <!-- Saco el div del section porque era la única manera de que cuadrara el css, ya que al ponerlo dentro, con la función flex las letras del h1 y h2 se subían dentro del contenedor por falta de espacio -->
       <div class="condiciones">
-        <img src="./images/informacion.png" alt="Ver condiciones" class="icono_informacion"/>
-        <li><a href="#">Ver Condiciones</a></li>
+        <img
+          src="./images/informacion.png"
+          alt="Ver condiciones"
+          class="icono_informacion"
+        />
+        <p><a href="#">Ver Condiciones</a></p>
       </div>
       <section class="hero2">
         <img
           src="/images/Hero.png"
-          alt="mujeres y hombres con ropa de invierno" class="foto_winter"
+          alt="mujeres y hombres con ropa de invierno"
+          class="foto_winter"
         />
         <div class="winter_conteiner">
-        <h2 class="titulo_winterland">WINTERLAND</h2>
+          <h2 class="titulo_winterland">WINTERLAND</h2>
           <ul>
             <li><a href="#" class="button2">MUJER</a></li>
             <li><a href="#" class="button2">HOMBRE</a></li>
             <li><a href="#" class="button2">VER EDITORIAL</a></li>
           </ul>
         </div>
-      </section> 
+      </section>
     </main>
+    <!-- Copio el footer, con una selección de elementos de la web original -->
+    <footer>
+      <div class="seccion">
+        <h3>Mi cuenta</h3>
+        <ul>
+          <li><a href="#">Iniciar sesión</a></li>
+          <li><a href="#">Registrarme</a></li>
+          <li><a href="#">Direcciones de envio</a></li>
+        </ul>
+      </div>
+      <div class="seccion">
+        <h3>Ayuda</h3>
+        <ul>
+          <li><a href="#">Atención al cliente</a></li>
+          <li><a href="#">Envío</a></li>
+          <li><a href="#">Preguntas frecuentes</a></li>
+        </ul>
+      </div>
+      <div class="seccion">
+        <h3>Club Springfield</h3>
+        <ul>
+          <li><a href="#">Envío gratis</a></li>
+          <li><a href="#">Ahorra con tus compras</a></li>
+          <li><a href="#">12€ regalo bienvenida</a></li>
+        </ul>
+      </div>
+      <div class="seccion">
+        <h3>Compañía</h3>
+        <ul>
+          <li><a href="#">¿Quiénes somos?</a></li>
+          <li><a href="#">Franquicias</a></li>
+          <li><a href="#">Prensa</a></li>
+        </ul>
+      </div>
+      <div class="pago">
+        <h3>Métodos de pago</h3>
+        <ul class="tarjetas">
+          <li class="visa">
+            <a href="#"><img src="images/visa.png" alt="Tarjeta Visa" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/mastercard.jpg" alt="Tarjeta Mastercard"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/paypal.png" alt="Logo de PayPal" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
-<!-- Copio el footer, con una selección de elementos de la web original --> 
- <footer>
-  <div class="seccion">
-    <h3>Mi cuenta</h3>
-    <ul>
-      <li><a href="#">Iniciar sesión</a></li>
-      <li><a href="#">Registrarme</a></li>
-      <li><a href="#">Direcciones de envio</a></li>
-    </ul>
-  </div>
-  <div class="seccion">
-    <h3>Ayuda</h3>
-    <ul>
-      <li><a href="#">Atención al cliente</a></li>
-      <li><a href="#">Envío</a></li>
-      <li><a href="#">Preguntas frecuentes</a></li>
-    </ul>
-  </div>
-  <div class="seccion">
-    <h3>Club Springfield</h3>
-    <ul>
-      <li><a href="#">Envío gratis</a></li>
-      <li><a href="#">Ahorra con tus compras</a></li>
-      <li><a href="#">12€ regalo bienvenida</a></li>
-    </ul>
-  </div>
-  <div class="seccion">
-    <h3>Compañía</h3>
-    <ul>
-      <li><a href="#">¿Quiénes somos?</a></li>
-      <li><a href="#">Franquicias</a></li>
-      <li><a href="#">Prensa</a></li>
-    </ul>
-  </div>
-  <div class="pago">
-    <h3>Métodos de pago</h3>
-    <ul class="tarjetas">
-      <li class="visa"><a href="#"><img src="images/visa.png" alt="Tarjeta Visa" /></a></li>
-      <li><a href="#"><img src="images/mastercard.jpg" alt="Tarjeta Mastercard" /></a></li>
-      <li><a href="#"><img src="images/paypal.png" alt="Logo de PayPal" /></a></li>
-    </ul>
-  </div>
-</footer>   

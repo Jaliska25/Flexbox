@@ -192,7 +192,7 @@ h2 {
   align-items: center;
   gap: 5px;
 }
-.condiciones > li > a {
+.condiciones > p > a {
   color: white;
   text-decoration: none;
 }
