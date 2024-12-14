@@ -10,11 +10,10 @@
   <body>
     <header>
       <div class="pre-header">
-      <span class="mensaje"><a href="#">ENVIOS A TIENDA SIEMPRE GRATIS, A DOMICILIO A PARTIR DE 30€</a
-        ></span class="mensaje2">
-        <span><a href="#">ESTE 10% EXTRA ES PARA TI: SUSCRÍBETE YA A LA NEWLETTER</a></span>
+      <span class="mensaje"><a href="#">ENVIOS A TIENDA SIEMPRE GRATIS, A DOMICILIO A PARTIR DE 30€</a>
       </div>
-      <div class="nav">
+      <div class="navegador">
+        <img src="./images/hamburgesa.png" alt="menu" class="menu_hamburguesa">
         <img src="images/Logo.png" alt="logo" class="logo" />
         <nav>
           <ul class="menu">
@@ -50,10 +49,9 @@
             </li>
           </ul>
         </nav>
-        <img src="./images/hamburgesa.png" alt="menu" class="menu_hamburguesa">
       </div>
     </header>
-    <main>
+         <main>
       <section class="hero1">
         <h1>BLACK FRIDAY</h1>
         <h2>HASTA -50% Y -30% EN TODO LO DEMÁS</h2>
@@ -64,35 +62,38 @@
             <li><a href="#" class="button">NIÑA</a></li>
             <li><a href="#" class="button">NIÑO</a></li>
           </ul>
-          <div class="condiciones">
-            <li><a href="#">Ver Condiciones</a></li>
-          </div>
         </div>
       </section>
+      <!-- Saco el div del section porque era la única manera de que cuadrara el css, ya que al ponerlo dentro, con la función flex las letras del h1 y h2 se subían dentro del contenedor por falta de espacio -->
+      <div class="condiciones">
+        <img src="./images/informacion.png" alt="Ver condiciones" class="icono_informacion"/>
+        <li><a href="#">Ver Condiciones</a></li>
+      </div>
       <section class="hero2">
         <img
           src="/images/Hero.png"
           alt="mujeres y hombres con ropa de invierno" class="foto_winter"
         />
-        <h2 class="titulo_winter">WINTERLAND</h2>
-        <div>
+        <div class="winter_conteiner">
+        <h2>WINTERLAND</h2>
           <ul>
-            <li><a href="#" class="button">MUJER</a></li>
-            <li><a href="#" class="button">HOMBRE</a></li>
-            <li><a href="#" class="button">VER EDITORIAL</a></li>
+            <li><a href="#" class="button2">MUJER</a></li>
+            <li><a href="#" class="button2">HOMBRE</a></li>
+            <li><a href="#" class="button2">VER EDITORIAL</a></li>
           </ul>
         </div>
-      </section>
+      </section> 
     </main>
-     
   </body>
 </html>
-<footer>
+<!-- Copio el footer, con una selección de elementos de la web original --> 
+ <footer>
   <div class="seccion">
     <h3>Mi cuenta</h3>
     <ul>
       <li><a href="#">Iniciar sesión</a></li>
       <li><a href="#">Registrarme</a></li>
+      <li><a href="#">Direcciones de envio</a></li>
     </ul>
   </div>
   <div class="seccion">
@@ -108,6 +109,7 @@
     <ul>
       <li><a href="#">Envío gratis</a></li>
       <li><a href="#">Ahorra con tus compras</a></li>
+      <li><a href="#">12€ regalo bienvenida</a></li>
     </ul>
   </div>
   <div class="seccion">
@@ -115,6 +117,7 @@
     <ul>
       <li><a href="#">¿Quiénes somos?</a></li>
       <li><a href="#">Franquicias</a></li>
+      <li><a href="#">Prensa</a></li>
     </ul>
   </div>
   <div class="pago">
@@ -125,4 +128,4 @@
       <li><a href="#"><img src="images/paypal.png" alt="Logo de PayPal" /></a></li>
     </ul>
   </div>
-</footer>
+</footer>   
