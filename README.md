@@ -32,6 +32,8 @@ Flexbox/
 
 <img width="1920" height="867" alt="Captura de pantalla 2025-07-29 152729" src="https://github.com/user-attachments/assets/8e029765-c49e-445c-a45f-906ec12652c5" />
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 🧠 I have to admit — **Flexbox gave me a hard time at first** 😅.  
